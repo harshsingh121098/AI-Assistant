@@ -11,7 +11,7 @@ engine.setProperty('voice',voices[0].id)
 
 #speak function
 def speak(audio):
-    #for i in range(1,5): taki baar baar sunai deta rahe
+    #for j in range(1,5): taki baar baar sunai deta rahe
     engine.say(audio)
     engine.runAndWait()
 
